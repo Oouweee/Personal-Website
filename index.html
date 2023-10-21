@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Jimmy Tran</title>
+  <link href='https://fonts.googleapis.com/css?family=Raleway:100,200,400,600' rel='stylesheet' type='text/css'>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/jquery.fullPage.min.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+ 
+</head>
+
+
+<body>
+  <!-- navbar header -->
+  <div class="nav-header">
+    <div class="nav-brand">
+      
+    </div>
+    <i class="fa fa-bars fa-3x"></i>
+    <div class="header-links">
+      <ul>
+        <li data-menuanchor="fifthPage"><a href="#connect">CONNECT</a></li>
+        <li data-menuanchor="fourthPage"><a href="#contact">CONTACT</a></li>
+        <li data-menuanchor="thirdPage"><a href="#portfolio">PROJECTS</a></li>
+        <li data-menuanchor="secondPage"><a href="#about">ABOUT</a></li>
+       <li data-menuanchor="firstPage"><a href="#home">HOME</a></li>
+      </ul>
+    </div>
+  </div>
+  <!-- end navbar header -->
+
+  <!-- begin fullpage -->
+
+  <div id="fullpage">
+
+    <!-- begin section -->
+
+    <div class="section aboutme" data-anchor="aboutme">
+      <div class="opaque-bg animated fadeInDown">
+        
+        
+        <p><span id="holder"></span><span class="blinking-cursor">|</span></p>
+      </div>
+      <i id="moveDown" class="fa fa-chevron-down fa-3x bounce"></i>
+    </div>
+    <!-- end section -->
+
+    <!-- begin section -->
+
+    <div class="section" data-anchor="skills">
+      <div class="content">
+        <h1>ABOUT ME</h1>
+        <p class="wow fadeInDown" data-wow-delay="0.2s"> Going into the gaming industry is a dream come true for me. As a passionate gamer and technology enthusiast, I have always been captivated by the magic of video games and their ability to transport players to incredible worlds filled with excitement and wonder. Joining the gaming industry means becoming a part of a vibrant and dynamic community of talented individuals who share the same passion for gaming. It's an opportunity to collaborate with like-minded developers, artists, designers, and storytellers to create immersive experiences that will resonate with players worldwide. Joining the gaming industry means becoming a part of a vibrant and dynamic community of talented individuals who share the same passion for gaming. It's an opportunity to collaborate with like-minded developers, artists, designers, and storytellers to create immersive experiences that will resonate with players worldwide. Overall, going into the gaming industry is not just a career choice for me; it's a calling. It's an opportunity to combine my passions, skills, and creativity to be a part of an industry that has the power to shape cultures, create lasting memories, and inspire generations to come. I'm ready to embrace this thrilling journey and make my mark in the world of gaming. Let the adventure begin!</p>
+        
+        
+      </div>
+    </div>
+
+       
+
+    <!-- begin section -->
+
+    <div class="section" data-anchor="projects">
+      <div class="content-slide">
+        <div class="slide">
+          <h1 class="wow fadeInDown" data-wow-delay="0.2s">Project 1</h1>
+          <p class="wow fadeInDown" data-wow-delay="0.2s">Personal website for Emily</p>
+          <img class="wow fadeInUp" data-wow-delay="0.2s" data-src="https://i.postimg.cc/jSSMQw8K/Xnip2023-10-19-15-41-40.jpg">
+        </div>
+        <div class="slide">
+          <h1>Project 2</h1>
+          <p>Website for dog services</p>
+          <img data-src="https://i.postimg.cc/qMLm3Xxj/Xnip2023-10-19-15-42-03.jpg">
+        </div>
+        <div class="slide">
+          <h1>Project 3</h1>
+          <p>Page of favorite artists</p>
+          <img data-src="https://i.postimg.cc/T1vkrtsH/Xnip2023-10-19-14-17-02.jpg">
+        </div>
+        <div class="slide">
+          <h1>Project 4</h1>
+          <p>Blog website</p>
+          <img data-src="https://i.postimg.cc/fTZ2ygmV/Xnip2023-10-19-14-20-50.jpg">
+        </div>
+        <div class="slide">
+          <h1>Project 5</h1>
+          <p>Project question</p>
+          <img data-src="https://i.postimg.cc/Kj70QnSc/Xnip2023-10-19-14-28-09.jpg">
+        </div>
+        <div class="slide">
+          <h1>Project 6</h1>
+          <p>Trivia</p>
+          <img data-src="https://i.postimg.cc/BZ27qGLW/Xnip2023-10-19-14-22-54.jpg">
+        </div>
+      </div>
+    </div>
+    <!-- end section -->
+
+    <!-- begin section -->
+
+    <div class="section" data-anchor="contact">
+      <div class="content wow fadeInDown" data-wow-delay="0.2s">
+        <h1>CONTACT ME</h1>
+        
+        <br>
+        <div class="contact-form">
+
+          <div id="form-messages"></div>
+          <form id="ajax-contact" method="post" role="form" action="contact.php" data-toggle="validator">
+            <div class="form-group has-feedback wow fadeInLeft" data-wow-delay="0.6s">
+              <input type="text" class="form-control" id="name" name="name" placeholder="NAME" data-error="Field can't be blank!" required>
+              <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+              <div class="help-block with-errors"></div>
+            </div>
+
+            <div class="form-group has-feedback wow fadeInRight" data-wow-delay="0.8s">
+              <input type="email" class="form-control" id="email" name="email" placeholder="EMAIL" data-error="Field can't be blank!" required>
+              <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+              <div class="help-block with-errors"></div>
+            </div>
+
+            <div class="form-group has-feedback wow fadeInLeft" data-wow-delay="1s">
+              <textarea data-minlength="10" class="form-control" id="message" name="message" placeholder="MESSAGE" data-error="Minimum of 10 characters" required></textarea>
+              <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+              <div class="help-block with-errors"></div>
+            </div>
+
+            <div class="hidden">
+              <input type="text" class="form-control" id="human" name="human" placeholder="">
+            </div>
+            <div class="wow fadeInUp" data-wow-delay="1s">
+              <button type="submit" id="submit" name="submit" class="btn btn-lg">SEND MESSAGE</button>
+            </div>
+          </form>
+          <br>
+        </div>
+      </div>
+    </div>
+    <!-- end section -->
+
+    <!-- begin section -->
+
+    <div class="section fp-auto-height">
+      <div class="footer">
+        <p>CONNECT WITH ME</p>
+        <div class="social-links">
+          <span><a href="https://www.linkedin.com/in/jimmy-t-tran950/" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a></span>
+          <span><a href="https://github.com/Oouweee" target="_blank"><i class="fa fa-github fa-2x"></i></a></span>
+          <span><a href="https://codepen.io/Jimmy-Tran-the-sans"><i class="fa fa-codepen fa-2x"></i></a></span>
+          
+                <p style="color: white;">&copy; 2023 Jimmy Tran. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+    
+    <!-- end section -->
+
+  </div>
+  <!-- end fullpage -->
+</body>
+  
+</html>

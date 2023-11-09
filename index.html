@@ -1,161 +1,315 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>Jimmy Tran</title>
-  <link href='https://fonts.googleapis.com/css?family=Raleway:100,200,400,600' rel='stylesheet' type='text/css'>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/jquery.fullPage.min.css" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
- 
-</head>
-
-
-<body>
-  <!-- navbar header -->
-  <div class="nav-header">
-    <div class="nav-brand">
+<html lang="en">
+    <head>
+        <title>Jimmy Tran's Portfolio</title>
       
-    </div>
-    <i class="fa fa-bars fa-3x"></i>
-    <div class="header-links">
-      <ul>
-        <li data-menuanchor="fifthPage"><a href="#connect">CONNECT</a></li>
-        <li data-menuanchor="fourthPage"><a href="#contact">CONTACT</a></li>
-        <li data-menuanchor="thirdPage"><a href="#portfolio">PROJECTS</a></li>
-        <li data-menuanchor="secondPage"><a href="#about">ABOUT</a></li>
-       <li data-menuanchor="firstPage"><a href="#home">HOME</a></li>
-      </ul>
-    </div>
-  </div>
-  <!-- end navbar header -->
-
-  <!-- begin fullpage -->
-
-  <div id="fullpage">
-
-    <!-- begin section -->
-
-    <div class="section aboutme" data-anchor="aboutme">
-      <div class="opaque-bg animated fadeInDown">
-        
-        
-        <p><span id="holder"></span><span class="blinking-cursor">|</span></p>
-      </div>
-      <i id="moveDown" class="fa fa-chevron-down fa-3x bounce"></i>
-    </div>
-    <!-- end section -->
-
-    <!-- begin section -->
-
-    <div class="section" data-anchor="skills">
-      <div class="content">
-        <h1>ABOUT ME</h1>
-        <p class="wow fadeInDown" data-wow-delay="0.2s"> Going into the gaming industry is a dream come true for me. As a passionate gamer and technology enthusiast, I have always been captivated by the magic of video games and their ability to transport players to incredible worlds filled with excitement and wonder. Joining the gaming industry means becoming a part of a vibrant and dynamic community of talented individuals who share the same passion for gaming. It's an opportunity to collaborate with like-minded developers, artists, designers, and storytellers to create immersive experiences that will resonate with players worldwide. Joining the gaming industry means becoming a part of a vibrant and dynamic community of talented individuals who share the same passion for gaming. It's an opportunity to collaborate with like-minded developers, artists, designers, and storytellers to create immersive experiences that will resonate with players worldwide. Overall, going into the gaming industry is not just a career choice for me; it's a calling. It's an opportunity to combine my passions, skills, and creativity to be a part of an industry that has the power to shape cultures, create lasting memories, and inspire generations to come. I'm ready to embrace this thrilling journey and make my mark in the world of gaming. Let the adventure begin!</p>
-        
-        
-      </div>
-    </div>
-
-       
-
-    <!-- begin section -->
-
-    <div class="section" data-anchor="projects">
-      <div class="content-slide">
-        <div class="slide">
-          <h1 class="wow fadeInDown" data-wow-delay="0.2s">Project 1</h1>
-          <p class="wow fadeInDown" data-wow-delay="0.2s">Personal website for Emily</p>
-          <img class="wow fadeInUp" data-wow-delay="0.2s" data-src="https://i.postimg.cc/jSSMQw8K/Xnip2023-10-19-15-41-40.jpg">
-        </div>
-        <div class="slide">
-          <h1>Project 2</h1>
-          <p>Website for dog services</p>
-          <img data-src="https://i.postimg.cc/qMLm3Xxj/Xnip2023-10-19-15-42-03.jpg">
-        </div>
-        <div class="slide">
-          <h1>Project 3</h1>
-          <p>Page of favorite artists</p>
-          <img data-src="https://i.postimg.cc/T1vkrtsH/Xnip2023-10-19-14-17-02.jpg">
-        </div>
-        <div class="slide">
-          <h1>Project 4</h1>
-          <p>Blog website</p>
-          <img data-src="https://i.postimg.cc/fTZ2ygmV/Xnip2023-10-19-14-20-50.jpg">
-        </div>
-        <div class="slide">
-          <h1>Project 5</h1>
-          <p>Project question</p>
-          <img data-src="https://i.postimg.cc/Kj70QnSc/Xnip2023-10-19-14-28-09.jpg">
-        </div>
-        <div class="slide">
-          <h1>Project 6</h1>
-          <p>Trivia</p>
-          <img data-src="https://i.postimg.cc/BZ27qGLW/Xnip2023-10-19-14-22-54.jpg">
-        </div>
-      </div>
-    </div>
-    <!-- end section -->
-
-    <!-- begin section -->
-
-    <div class="section" data-anchor="contact">
-      <div class="content wow fadeInDown" data-wow-delay="0.2s">
-        <h1>CONTACT ME</h1>
-        
-        <br>
-        <div class="contact-form">
-
-          <div id="form-messages"></div>
-          <form id="ajax-contact" method="post" role="form" action="contact.php" data-toggle="validator">
-            <div class="form-group has-feedback wow fadeInLeft" data-wow-delay="0.6s">
-              <input type="text" class="form-control" id="name" name="name" placeholder="NAME" data-error="Field can't be blank!" required>
-              <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
-              <div class="help-block with-errors"></div>
-            </div>
-
-            <div class="form-group has-feedback wow fadeInRight" data-wow-delay="0.8s">
-              <input type="email" class="form-control" id="email" name="email" placeholder="EMAIL" data-error="Field can't be blank!" required>
-              <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
-              <div class="help-block with-errors"></div>
-            </div>
-
-            <div class="form-group has-feedback wow fadeInLeft" data-wow-delay="1s">
-              <textarea data-minlength="10" class="form-control" id="message" name="message" placeholder="MESSAGE" data-error="Minimum of 10 characters" required></textarea>
-              <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
-              <div class="help-block with-errors"></div>
-            </div>
-
-            <div class="hidden">
-              <input type="text" class="form-control" id="human" name="human" placeholder="">
-            </div>
-            <div class="wow fadeInUp" data-wow-delay="1s">
-              <button type="submit" id="submit" name="submit" class="btn btn-lg">SEND MESSAGE</button>
-            </div>
-          </form>
-          <br>
-        </div>
-      </div>
-    </div>
-    <!-- end section -->
-
-    <!-- begin section -->
-
-    <div class="section fp-auto-height">
-      <div class="footer">
-        <p>CONNECT WITH ME</p>
-        <div class="social-links">
-          <span><a href="https://www.linkedin.com/in/jimmy-t-tran950/" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a></span>
-          <span><a href="https://github.com/Oouweee" target="_blank"><i class="fa fa-github fa-2x"></i></a></span>
-          <span><a href="https://codepen.io/Jimmy-Tran-the-sans"><i class="fa fa-codepen fa-2x"></i></a></span>
-          
-                <p style="color: white;">&copy; 2023 Jimmy Tran. All rights reserved.</p>
-        </div>
-      </div>
-    </div>
-    
-    <!-- end section -->
-
-  </div>
-  <!-- end fullpage -->
-</body>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    </head>
   
+  
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+    <!-- Sidebar/menu -->
+    <nav class="w3-sidebar w3-bar-block w3-white w3-animate-left w3-text-grey w3-collapse w3-top w3-center"
+        style="z-index:3;width:300px;font-weight:bold" id="mySidebar"><br>
+        <h3 class="w3-padding-64 w3-center"><b>JT</b></h3>
+        <a href="javascript:void(0)" onclick="w3_close()"
+            class="w3-bar-item w3-button w3-padding w3-hide-large">CLOSE</a>
+        <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">PORTFOLIO</a>
+        <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT ME</a>
+        <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+    </nav>
+
+    <!-- Top menu on small screens -->
+    <header class="w3-container w3-top w3-hide-large w3-white w3-xlarge w3-padding-16">
+        <span class="w3-left w3-padding">JT</span>
+        <a href="javascript:void(0)" class="w3-right w3-button w3-white" onclick="w3_open()">☰</a>
+    </header>
+
+    <!-- Overlay effect when opening sidebar on small screens -->
+    <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer"
+        title="close side menu" id="myOverlay"></div>
+
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-main" style="margin-left:300px">
+
+        <!-- Push down content on small screens -->
+        <div class="w3-hide-large" style="margin-top:83px"></div>
+
+        <!-- Photo grid -->
+        <div class="w3-row">
+            <div class="w3-third">
+                <img src="https://i.postimg.cc/jSSMQw8K/Xnip2023-10-19-15-41-40.jpg" style="width:100%" onclick="onClick(this)"
+                    alt="Personal website for emily">
+                <img src="https://i.postimg.cc/qMLm3Xxj/Xnip2023-10-19-15-42-03.jpg" style="width:100%" onclick="onClick(this)"
+                    alt="Website for dog services">
+              <img src="https://i.ibb.co/GkVNhrQ/Xnip2023-10-28-00-49-12.jpg" style="width:100%" onclick="onClick(this)" alt="Project 3">
+                
+            </div>
+
+            <div class="w3-third">
+                <img src="https://i.ibb.co/dBrFwnv/Xnip2023-10-28-00-15-51.jpg" style="width:100%" onclick="onClick(this)" alt="Calculator">
+                <img src="https://i.postimg.cc/Kj70QnSc/Xnip2023-10-19-14-28-09.jpg" style="width:100%" onclick="onClick(this)"
+                    alt="Project questions">
+                <img src="https://i.postimg.cc/BZ27qGLW/Xnip2023-10-19-14-22-54.jpg" style="width:100%" onclick="onClick(this)"
+                    alt="Trivia">
+            </div>
+
+            <div class="w3-third">
+                <img src="https://i.ibb.co/jLP6NqS/Xnip2023-10-28-00-39-14.jpg" style="width:100%" onclick="onClick(this)" alt="Page of favorite artists">
+                <img src="https://i.postimg.cc/fTZ2ygmV/Xnip2023-10-19-14-20-50.jpg" style="width:100%" onclick="onClick(this)"
+                    alt="Blog website">
+                <img src="https://i.ibb.co/KXWXJ45/Xnip2023-10-28-00-16-34.jpg" style="width:100%" onclick="onClick(this)" alt="Bar chart">
+              <img src="https://i.ibb.co/b6p8nBs/Xnip2023-10-28-00-52-24.jpg" style="width:100%" onclick="onClick(this)" alt="About me page">
+            </div>
+        </div>
+
+        <!-- Pagination -->
+        <div class="w3-center w3-padding-32">
+            <div class="w3-bar">
+                <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+                <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+                <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+                <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+            </div>
+        </div>
+
+        <!-- Modal for full size images on click-->
+        <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+            <span class="w3-button w3-black w3-xlarge w3-display-topright">×</span>
+            <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+                <img id="img01" class="w3-image">
+                <p id="caption"></p>
+            </div>
+        </div>
+
+        <!-- About section -->
+        <div class="w3-container w3-dark-grey w3-center w3-text-light-grey w3-padding-32" id="about">
+            <h4><b>About Me</b></h4>
+            <img src="https://i.ibb.co/ZKb3c5N/71-AD9106-2-DB0-4029-9-BC6-8-D5900845755-1-201-a.jpg" alt="Me" class="w3-image w3-padding-32" width="600" height="650">
+            <div class="w3-content w3-justify" style="max-width:600px">
+                <h4>Jimmy Tran</h4>
+                <p>Going into the gaming industry is a dream come true for me. As a passionate gamer and technology enthusiast, I have always been captivated by the magic of video games and their ability to transport players to incredible worlds filled with excitement and wonder. Joining the gaming industry means becoming a part of a vibrant and dynamic community of talented individuals who share the same passion for gaming. It's an opportunity to collaborate with like-minded developers, artists, designers, and storytellers to create immersive experiences that will resonate with players worldwide. Joining the gaming industry means becoming a part of a vibrant and dynamic community of talented individuals who share the same passion for gaming. It's an opportunity to collaborate with like-minded developers, artists, designers, and storytellers to create immersive experiences that will resonate with players worldwide. Overall, going into the gaming industry is not just a career choice for me; it's a calling. It's an opportunity to combine my passions, skills, and creativity to be a part of an industry that has the power to shape cultures, create lasting memories, and inspire generations to come. I'm ready to embrace this thrilling journey and make my mark in the world of gaming. Let the adventure begin!
+                </p>
+                <p>email: jayytran91@gmail.com</p>
+                
+                <hr class="w3-opacity">
+                <h4 class="w3-padding-16">Technical Skills</h4>
+                <p class="w3-wide">HTML</p>
+                <div class="w3-white">
+                    <div class="w3-container w3-padding-small w3-center w3-grey" style="width:95%">95%</div>
+                </div>
+                <p class="w3-wide">CSS</p>
+                <div class="w3-white">
+                    <div class="w3-container w3-padding-small w3-center w3-grey" style="width:85%">85%</div>
+                </div>
+                <p class="w3-wide">JAVASCRIPT</p>
+                <div class="w3-white">
+                    <div class="w3-container w3-padding-small w3-center w3-grey" style="width:80%">80%</div>
+                </div>
+                <p><button class="w3-button w3-light-grey w3-padding-large w3-margin-top w3-margin-bottom">Download
+                        Resume</button></p>
+                <hr class="w3-opacity">
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact section -->
+        <div class="w3-container w3-light-grey w3-padding-32 w3-padding-large" id="contact">
+            <div class="w3-content" style="max-width:600px">
+                <h4 class="w3-center"><b>Contact Me</b></h4>
+                <p>Fill out the form and fill me in with the details.</p>
+                <form action="/action_page.php" target="_blank">
+                    <div class="w3-section">
+                        <label>Name</label>
+                        <input class="w3-input w3-border" type="text" name="Name" required>
+                    </div>
+                    <div class="w3-section">
+                        <label>Email</label>
+                        <input class="w3-input w3-border" type="text" name="Email" required>
+                    </div>
+                    <div class="w3-section">
+                        <label>Message</label>
+                        <input class="w3-input w3-border" type="text" name="Message" required>
+                    </div>
+                    <button type="submit" class="w3-button w3-block w3-black w3-margin-bottom">Send Message</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="w3-container w3-padding-32 w3-grey">
+            <div class="w3-row-padding">
+                <div class="w3-third">
+                       <!-- Map container -->
+    <div id="map"></div>
+
+    <!-- Form for placing a marker -->
+    <form id="markerForm">
+        <input type="text" id="markerName" placeholder="Marker Name">
+        <button type="button" onclick="placeMarker()">Place Marker</button>
+    </form>
+
+    <!-- Form for getting the path between two points -->
+    <form id="pathForm">
+        <input type="text" id="origin" placeholder="Origin">
+        <input type="text" id="destination" placeholder="Destination">
+        <button type="button" onclick="getPath()">Get Path</button>
+    </form>
+
+    <!-- Form for placing a circle -->
+    <form id="circleForm">
+        <input type="text" id="circleRadius" placeholder="Circle Radius (in meters)">
+        <button type="button" onclick="placeCircle()">Place Circle</button>
+    </form>
+
+    <!-- Form for placing a rectangle -->
+    <form id="rectangleForm">
+        <input type="text" id="rectangleWidth" placeholder="Rectangle Width (in meters)">
+        <input type="text" id="rectangleHeight" placeholder="Rectangle Height (in meters)">
+        <button type="button" onclick="placeRectangle()">Place Rectangle</button>
+    </form>
+
+    <!-- Form for placing a polygon -->
+    <form id="polygonForm">
+        <input type="text" id="polygonCoordinates" placeholder="Polygon Coordinates (comma-separated lat/lng pairs)">
+        <button type="button" onclick="placePolygon()">Place Polygon</button>
+    </form>
+
+    <!-- Form for placing polylines -->
+    <form id="polylineForm">
+        <input type="text" id="polylineCoordinates" placeholder="Polyline Coordinates (four comma-separated lat/lng pairs)">
+        <button type="button" onclick="placePolyline()">Place Polyline</button>
+    </form>
+
+    <script>
+        let map;
+        let markers = [];
+        let circles = [];
+        let rectangles = [];
+        let polygons = [];
+        let polylines = [];
+
+        function initMap() {
+            map = new google.maps.Map(document.getElementById('map'), {
+                center: { lat: 0, lng: 0 },
+                zoom: 4
+            });
+
+            // Add a click event listener to display latitude and longitude in an InfoWindow
+            map.addListener('click', (event) => {
+                const latLng = event.latLng;
+                const infoWindow = new google.maps.InfoWindow({
+                    content: `Latitude: ${latLng.lat().toFixed(6)}, Longitude: ${latLng.lng().toFixed(6)}`
+                });
+                infoWindow.setPosition(latLng);
+                infoWindow.open(map);
+            });
+        }
+
+        // Function to place a marker
+        function placeMarker() {
+            const name = document.getElementById('markerName').value;
+            const marker = new google.maps.Marker({
+                position: map.getCenter(),
+                map: map,
+                title: name
+            });
+            markers.push(marker);
+        }
+
+        // Function to get the path between two points
+        function getPath() {
+            const origin = document.getElementById('origin').value;
+            const destination = document.getElementById('destination').value;
+            const directionsService = new google.maps.DirectionsService();
+            const directionsRenderer = new google.maps.DirectionsRenderer({ map: map });
+            directionsService.route(
+                {
+                    origin,
+                    destination,
+                    travelMode: google.maps.TravelMode.DRIVING
+                },
+                (result, status) => {
+                    if (status === 'OK') {
+                        directionsRenderer.setDirections(result);
+                    }
+                }
+            );
+        }
+
+        // Function to place a circle
+        function placeCircle() {
+            const radius = parseFloat(document.getElementById('circleRadius').value);
+            const circle = new google.maps.Circle({
+                map: map,
+                center: map.getCenter(),
+                radius: radius,
+                fillColor: '#AA0000',
+                fillOpacity: 0.2
+            });
+            circles.push(circle);
+        }
+
+        // Function to place a rectangle
+        function placeRectangle() {
+            const width = parseFloat(document.getElementById('rectangleWidth').value);
+            const height = parseFloat(document.getElementById('rectangleHeight').value);
+            const rectangle = new google.maps.Rectangle({
+                map: map,
+                bounds: {
+                    north: map.getCenter().lat() + height / 2,
+                    south: map.getCenter().lat() - height / 2,
+                    east: map.getCenter().lng() + width / 2,
+                    west: map.getCenter().lng() - width / 2
+                },
+                fillColor: '#00AA00',
+                fillOpacity: 0.2
+            });
+            rectangles.push(rectangle);
+        }
+
+        // Function to place a polygon
+        function placePolygon() {
+            const coordinates = document.getElementById('polygonCoordinates').value;
+            const coordinatesArray = coordinates.split(',').map(coord => parseFloat(coord));
+            const paths = [];
+            for (let i = 0; i < coordinatesArray.length; i += 2) {
+                paths.push({ lat: coordinatesArray[i], lng: coordinatesArray[i + 1] });
+            }
+            const polygon = new google.maps.Polygon({
+                paths: paths,
+                map: map,
+                fillColor: '#0000AA',
+                fillOpacity: 0.2
+            });
+            polygons.push(polygon);
+        }
+
+        // Function to place polylines
+        function placePolyline() {
+            const coordinates = document.getElementById('polylineCoordinates').value;
+            const coordinatesArray = coordinates.split(',').map(coord => parseFloat(coord));
+            const path = [];
+            for (let i = 0; i < coordinatesArray.length; i += 2) {
+                path.push({ lat: coordinatesArray[i], lng: coordinatesArray[i + 1] });
+            }
+            const polyline = new google.maps.Polyline({
+                path: path,
+                map: map,
+                strokeColor: '#FF00FF',
+                strokeWeight: 2
+            });
+            polylines.push(polyline);
+        }
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&v=weekly"></script>
+
+
+</body>
+
 </html>
